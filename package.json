@@ -1,0 +1,18 @@
+{
+  "name": "service-saxon",
+  "version": "1.0.0",
+  "description": "A microservice to run Saxon with XSLT 3.0 and XPath 3.1",
+  "main": "src/index.js",
+  "author": "Gaute Rønningen<gaute.ronningen@nlb.no>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "saxon-js": "^2.4.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  }
+}
